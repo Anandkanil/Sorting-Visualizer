@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Sorting Visualizer
+Overview
+This project is a Sorting Visualizer built with Next.js. It provides a visual demonstration of 5 popular sorting algorithms:
 
-## Getting Started
+Bubble Sort
+Quick Sort
+Merge Sort
+Insertion Sort
+Selection Sort
+Users can visualize how these algorithms work step by step through animations, making it a helpful tool for understanding sorting algorithms in an interactive way.
 
-First, run the development server:
+Features
+Real-time Visualizations: Watch the sorting process unfold with smooth animations.
+Multiple Algorithms: Choose from 5 different sorting algorithms.
+Customizable Speed: Adjust the speed of the animations to suit your preference.
+Responsive Design: The visualizer adapts to different screen sizes, ensuring a great experience on both desktop and mobile devices.
+Technologies Used
+Next.js: Framework for building server-rendered React applications.
+React: JavaScript library for building user interfaces.
+CSS/SCSS/Tailwind CSS: For styling the visual elements and ensuring responsiveness.
+JavaScript: Core language for implementing sorting algorithms.
+Algorithms Implemented
+Bubble Sort: A simple comparison-based algorithm that repeatedly steps through the list, compares adjacent items, and swaps them if they are in the wrong order.
+Quick Sort: A highly efficient sorting algorithm that uses a divide-and-conquer approach by selecting a pivot element and partitioning the array around it.
+Merge Sort: A stable, comparison-based sorting algorithm that divides the array into halves, recursively sorts them, and then merges the sorted halves.
+Insertion Sort: A simple sorting algorithm that builds the sorted array one item at a time by repeatedly taking the next item and inserting it into the correct position.
+Selection Sort: A comparison-based algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion of the list and places it in its correct position.
+Preview
+![image](https://github.com/user-attachments/assets/ee5291f1-c215-4891-a725-b1a3a81a9231)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Future Enhancements
+Add more sorting algorithms like Heap Sort and Radix Sort.
+Implement algorithm comparison features.
+Provide in-depth explanations for each algorithm.
