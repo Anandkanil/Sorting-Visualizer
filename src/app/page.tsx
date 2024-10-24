@@ -1,6 +1,5 @@
 'use client';
 
-import { generateBubbleSortAnimationArray } from "@/algorithms/bubbleSort";
 import { Select } from "@/components/input/Select";
 import { Slider } from "@/components/input/Slider";
 import { useSortingAlgorithmContext } from "@/context/Visualizer";
